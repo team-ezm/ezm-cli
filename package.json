@@ -1,0 +1,56 @@
+{
+  "name": "ezm-cli",
+  "version": "1.0.0-alpha.4",
+  "description": "中控易动平台应用开发工具",
+  "bin": {
+    "ezm": "bin/ezm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-ezm/ezm-cli.git"
+  },
+  "keywords": [
+    "ezm",
+    "cli"
+  ],
+  "author": "Neo X",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-ezm/ezm-cli/issues"
+  },
+  "homepage": "https://yd-mobile.cn",
+  "dependencies": {
+    "async": "^2.4.0",
+    "boxen": "^4.2.0",
+    "chalk": "^2.1.0",
+    "child_process": "^1.0.2",
+    "coffee-script": "1.12.7",
+    "commander": "^2.9.0",
+    "consolidate": "^0.14.0",
+    "download-git-repo": "^1.0.1",
+    "envinfo": "^7.7.3",
+    "execa": "^5.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.0.5",
+    "inquirer": "^6.0.0",
+    "leven": "^3.1.0",
+    "lru-cache": "^6.0.0",
+    "metalsmith": "^2.1.0",
+    "minimatch": "^3.0.0",
+    "minimist": "^1.2.5",
+    "multimatch": "^2.1.0",
+    "node-fetch": "^2.6.1",
+    "ora": "^1.3.0",
+    "read-metadata": "^1.0.0",
+    "request": "^2.67.0",
+    "rimraf": "^2.5.0",
+    "semver": "^5.1.0",
+    "tildify": "^1.2.0",
+    "uid": "0.0.2",
+    "user-home": "^2.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "engines": {
+    "node": "^10.12.0 || ^12.0.0 || >= 14.0.0"
+  }
+}
