@@ -1,6 +1,6 @@
 {
   "name": "ezm-cli",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "中控易动平台应用开发工具",
   "bin": {
     "ezm": "bin/ezm.js"

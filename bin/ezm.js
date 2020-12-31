@@ -31,7 +31,11 @@ program
 
 
 program
-    .command('template', 'list available official templates')
+    .command('template')
+    .description('list available official templates')
+    .action(() => {
+        require('../lib/template')()
+    })
 
 
 program
@@ -58,7 +62,7 @@ program
 // add some useful info on help
 program.on('--help', () => {
     console.log()
-    console.log(`  Run ${chalk.cyan(`emo <command> --help`)} for detailed usage of given command.`)
+    console.log(`  Run ${chalk.cyan(`ezm <command> --help`)} for detailed usage of given command.`)
     console.log()
 })
 
